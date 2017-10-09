@@ -59,13 +59,13 @@ export class AppComponent implements OnInit{
       return cell;
     }
 
-    let bart = member(300, 70, 'CEO', 'Bart Simpson', 'male.png', '#30d0c6');
+    let bart = member(300, 70, 'CEO', 'Bart Simpson', 'male.png', '#30d0c6' , '#000000');
     let homer = member(90, 200, 'VP Marketing', 'Homer Simpson', 'male.png', '#7c68fd', '#f1f1f1');
     let marge = member(300, 200, 'VP Sales', 'Marge Simpson', 'female.png', '#7c68fd', '#f1f1f1');
     let lisa = member(500, 200, 'VP Production' , 'Lisa Simpson', 'female.png', '#7c68fd', '#f1f1f1');
-    let maggie = member(400, 350, 'Manager', 'Maggie Simpson', 'female.png', '#feb563');
-    let lenny = member(190, 350, 'Manager', 'Lenny Leonard', 'male.png', '#feb563');
-    let carl = member(190, 500, 'Manager', 'Carl Carlson', 'male.png', '#feb563');
+    let maggie = member(400, 350, 'Manager', 'Maggie Simpson', 'female.png', '#feb563', '#f1f1f1');
+    let lenny = member(190, 350, 'Manager', 'Lenny Leonard', 'male.png', '#feb563', '#f1f1f1');
+    let carl = member(190, 500, 'Manager', 'Carl Carlson', 'male.png', '#feb563', '#f1f1f1');
 
 
 
